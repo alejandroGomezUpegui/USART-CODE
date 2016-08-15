@@ -1,0 +1,306 @@
+{
+	"boxes" : [ 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "Alejandro Gomez Upegui 2016",
+				"linecount" : 15,
+				"presentation_rect" : [ 231.0, 319.967407, 127.0, 16.0 ],
+				"numinlets" : 1,
+				"textjustification" : 1,
+				"fontsize" : 8.0,
+				"id" : "obj-15",
+				"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+				"numoutlets" : 0,
+				"patching_rect" : [ 366.0, 333.0, 17.0, 144.0 ],
+				"style" : "",
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "Binario",
+				"presentation_rect" : [ 263.0, 170.967422, 50.0, 20.0 ],
+				"numinlets" : 1,
+				"id" : "obj-14",
+				"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+				"numoutlets" : 0,
+				"patching_rect" : [ 311.0, 235.467422, 59.0, 20.0 ],
+				"style" : "",
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "Decimal",
+				"presentation_rect" : [ 214.0, 89.467422, 60.0, 20.0 ],
+				"numinlets" : 1,
+				"id" : "obj-3",
+				"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+				"numoutlets" : 0,
+				"patching_rect" : [ 251.0, 147.5, 59.0, 20.0 ],
+				"style" : "",
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "attrui",
+				"outlettype" : [ "" ],
+				"attr" : "serport",
+				"presentation_rect" : [ 125.0, 35.0, 233.0, 22.0 ],
+				"numinlets" : 1,
+				"id" : "obj-30",
+				"numoutlets" : 1,
+				"patching_rect" : [ 275.0, 82.0, 233.0, 22.0 ],
+				"style" : "",
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "slider",
+				"outlettype" : [ "" ],
+				"parameter_enable" : 0,
+				"presentation_rect" : [ 51.5, 79.0, 10.0, 180.467422 ],
+				"numinlets" : 1,
+				"size" : 1000.0,
+				"id" : "obj-28",
+				"numoutlets" : 1,
+				"bgcolor" : [ 0.32549, 0.345098, 0.372549, 0.509804 ],
+				"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+				"patching_rect" : [ 63.0, 169.467422, 20.0, 140.0 ],
+				"style" : "",
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "",
+				"outlettype" : [ "" ],
+				"presentation_rect" : [ 125.0, 265.0, 82.0, 29.0 ],
+				"numinlets" : 2,
+				"fontsize" : 18.0,
+				"id" : "obj-19",
+				"numoutlets" : 1,
+				"patching_rect" : [ 275.0, 318.0, 85.0, 29.0 ],
+				"style" : "",
+				"presentation" : 1,
+				"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+				"bgcolor2" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+				"gradient" : 1,
+				"bgfillcolor_type" : "color",
+				"bgfillcolor_color1" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+				"bgfillcolor_color2" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+				"bgfillcolor_color" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+				"bgfillcolor_angle" : 270.0,
+				"bgfillcolor_proportion" : 0.39,
+				"bgfillcolor_autogradient" : 0.0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "Midi",
+				"presentation_rect" : [ 205.0, 223.467407, 38.0, 20.0 ],
+				"numinlets" : 1,
+				"id" : "obj-4",
+				"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+				"numoutlets" : 0,
+				"patching_rect" : [ 351.0, 276.467407, 59.0, 20.0 ],
+				"style" : "",
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "ASCII",
+				"presentation_rect" : [ 214.0, 269.5, 45.0, 20.0 ],
+				"numinlets" : 1,
+				"id" : "obj-13",
+				"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+				"numoutlets" : 0,
+				"patching_rect" : [ 351.0, 318.0, 59.0, 20.0 ],
+				"style" : "",
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "Hex",
+				"presentation_rect" : [ 214.0, 129.5, 38.0, 20.0 ],
+				"numinlets" : 1,
+				"id" : "obj-12",
+				"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+				"numoutlets" : 0,
+				"patching_rect" : [ 351.0, 182.5, 59.0, 20.0 ],
+				"style" : "",
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "Velocidad\nde muestra",
+				"linecount" : 4,
+				"presentation_linecount" : 2,
+				"presentation_rect" : [ 26.0, 265.0, 75.0, 34.0 ],
+				"numinlets" : 1,
+				"id" : "obj-11",
+				"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+				"numoutlets" : 0,
+				"patching_rect" : [ 351.0, 132.0, 59.0, 62.0 ],
+				"style" : "",
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "number",
+				"outlettype" : [ "", "bang" ],
+				"parameter_enable" : 0,
+				"presentation_rect" : [ 125.0, 217.967407, 78.0, 31.0 ],
+				"numinlets" : 1,
+				"format" : 4,
+				"fontsize" : 20.0,
+				"id" : "obj-9",
+				"numoutlets" : 2,
+				"patching_rect" : [ 275.0, 270.967407, 65.0, 31.0 ],
+				"style" : "",
+				"triangle" : 0,
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "number",
+				"outlettype" : [ "", "bang" ],
+				"parameter_enable" : 0,
+				"presentation_rect" : [ 125.0, 170.967422, 129.0, 31.0 ],
+				"numinlets" : 1,
+				"format" : 3,
+				"fontsize" : 20.0,
+				"id" : "obj-8",
+				"numoutlets" : 2,
+				"patching_rect" : [ 275.0, 223.967422, 117.0, 31.0 ],
+				"style" : "",
+				"triangle" : 0,
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "number",
+				"outlettype" : [ "", "bang" ],
+				"parameter_enable" : 0,
+				"presentation_rect" : [ 125.0, 124.0, 78.0, 31.0 ],
+				"numinlets" : 1,
+				"format" : 1,
+				"fontsize" : 20.0,
+				"id" : "obj-7",
+				"numoutlets" : 2,
+				"patching_rect" : [ 275.0, 177.0, 65.0, 31.0 ],
+				"style" : "",
+				"triangle" : 0,
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "number",
+				"outlettype" : [ "", "bang" ],
+				"parameter_enable" : 0,
+				"presentation_rect" : [ 125.0, 79.0, 78.0, 31.0 ],
+				"numinlets" : 1,
+				"fontsize" : 20.0,
+				"id" : "obj-23",
+				"numoutlets" : 2,
+				"patching_rect" : [ 275.0, 132.0, 65.0, 31.0 ],
+				"style" : "",
+				"triangle" : 0,
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "toggle",
+				"outlettype" : [ "int" ],
+				"parameter_enable" : 0,
+				"presentation_rect" : [ 48.5, 31.0, 30.0, 30.0 ],
+				"numinlets" : 1,
+				"id" : "obj-6",
+				"numoutlets" : 1,
+				"bgcolor" : [ 0.239216, 0.254902, 0.278431, 0.74902 ],
+				"checkedcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+				"patching_rect" : [ 83.0, 43.0, 24.0, 24.0 ],
+				"style" : "toggleGreen",
+				"presentation" : 1
+			}
+
+		}
+ ],
+	"appversion" : 	{
+		"major" : 7,
+		"minor" : 2,
+		"revision" : 3,
+		"architecture" : "x64",
+		"modernui" : 1
+	}
+,
+	"styles" : [ 		{
+			"name" : "newobjBlue-1",
+			"default" : 			{
+				"accentcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
+			}
+,
+			"parentstyle" : "",
+			"multi" : 0
+		}
+, 		{
+			"name" : "newobjGreen-1",
+			"default" : 			{
+				"accentcolor" : [ 0.0, 0.533333, 0.168627, 1.0 ]
+			}
+,
+			"parentstyle" : "",
+			"multi" : 0
+		}
+, 		{
+			"name" : "newobjYellow-1",
+			"default" : 			{
+				"fontsize" : [ 12.059008 ],
+				"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+			}
+,
+			"parentstyle" : "",
+			"multi" : 0
+		}
+, 		{
+			"name" : "numberGold-1",
+			"default" : 			{
+				"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+			}
+,
+			"parentstyle" : "",
+			"multi" : 0
+		}
+ ]
+}
